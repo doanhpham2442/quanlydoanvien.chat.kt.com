@@ -1,0 +1,27 @@
+CRITICAL - 2023-02-16 03:55:56 --> syntax error, unexpected '0' (T_LNUMBER), expecting ']'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OpenServer\\d...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Validation\\...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Validation\\...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Validation\Validation.php(580): spl_autoload_call('App\\Validation\\...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Validation\Validation.php(122): CodeIgniter\Validation\Validation->loadRuleSets()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Authentication\Auth.php(28): CodeIgniter\Controller->validate(Array, Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Authentication\Auth->login()
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-16 04:15:37 --> Undefined variable: email
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Authentication\Auth.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 34, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Authentication\Auth->login()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Authentication\Auth))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 04:18:10 --> Undefined variable: email
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Authentication\Auth.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 32, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Authentication\Auth->login()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Authentication\Auth))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}

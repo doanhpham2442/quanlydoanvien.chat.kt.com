@@ -1,0 +1,51 @@
+CRITICAL - 2023-01-01 01:05:44 --> syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Event\Event.php(80): view('backend/dashboa...', Array)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Event\Event->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Event\Event))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-01 01:34:17 --> Illegal string offset 'id'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Infomation\Infomation.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\OpenServer\\d...', 38, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Infomation\Infomation->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Infomation\Infomation))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-01 01:35:54 --> syntax error, unexpected '$_COOKIE' (T_VARIABLE), expecting ',' or ')'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\OpenServer\\d...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-01 01:36:42 --> syntax error, unexpected '$_COOKIE' (T_VARIABLE), expecting ',' or ')'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\OpenServer\\d...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-01 01:37:11 --> syntax error, unexpected ''$_COOKIE["QLDVKT_backend"]'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\OpenServer\\d...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-01 01:43:33 --> Call to a member function all() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Infomation\Infomation->index()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Infomation\Infomation))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}

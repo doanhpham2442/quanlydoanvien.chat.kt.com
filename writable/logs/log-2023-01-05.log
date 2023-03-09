@@ -1,0 +1,148 @@
+CRITICAL - 2023-01-05 02:47:27 --> Undefined property: App\Services\UserService::$userCatalogueRepository
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 39, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(30): App\Services\UserService->paginate(1)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->index()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-05 02:58:47 --> Argument 3 passed to App\Repositories\UserRepository::paginate() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php on line 55
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(55): App\Repositories\UserRepository->paginate(Array, '', 'tb1.user_catalo...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(30): App\Services\UserService->paginate(0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->index()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-05 02:58:48 --> Argument 3 passed to App\Repositories\UserRepository::paginate() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php on line 55
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(55): App\Repositories\UserRepository->paginate(Array, '', 'tb1.user_catalo...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(30): App\Services\UserService->paginate(0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->index()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-05 02:59:13 --> Declaration of App\Repositories\UserRepository::paginate(array $condition, string $keyword, string $query, array $config, int $page) must be compatible with App\Repositories\Interfaces\UserRepositoryInterface::paginate(array $condition, string $keyword, array $config, int $page)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-05 02:59:14 --> Declaration of App\Repositories\UserRepository::paginate(array $condition, string $keyword, string $query, array $config, int $page) must be compatible with App\Repositories\Interfaces\UserRepositoryInterface::paginate(array $condition, string $keyword, array $config, int $page)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-05 02:59:14 --> Declaration of App\Repositories\UserRepository::paginate(array $condition, string $keyword, string $query, array $config, int $page) must be compatible with App\Repositories\Interfaces\UserRepositoryInterface::paginate(array $condition, string $keyword, array $config, int $page)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-05 03:35:40 --> Undefined property: App\Controllers\Frontend\Article\Article::$userRepository
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Article\Article.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 62, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Article->index('1', '1')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=41, page=1', 0, 'AppControllersF...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(19): view_cell('\\App\\Controller...', 'id=41, page=1')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('cuoc-thi-mos-mi...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-05 03:46:32 --> Undefined property: App\Controllers\Frontend\Article\Article::$userRepository
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Article\Article.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 62, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Article->index('1', '1')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=41, page=1', 0, 'AppControllersF...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(19): view_cell('\\App\\Controller...', 'id=41, page=1')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('cuoc-thi-mos-mi...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-05 07:23:02 --> Undefined variable: faculty
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\storeexcel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 55, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(61): view('backend/user/us...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(99): view('backend/dashboa...', Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->createExcel()
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-05 09:13:37 --> Array to string conversion
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Article\Article.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\OpenServer\\d...', 37, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Article->index('42', '1')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=42, page=1', 0, 'AppControllersF...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(19): view_cell('\\App\\Controller...', 'id=42, page=1')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('cuoc-thi-atc-al...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-05 09:27:55 --> Illegal string offset 'title'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\frontend\article\article\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\OpenServer\\d...', 41, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/articl...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\frontend\homepage\layout\home.php(11): view('frontend/articl...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Article\Article.php(64): view('frontend/homepa...', Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Article->index('1', '1')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=42, page=1', 0, 'AppControllersF...')
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(19): view_cell('\\App\\Controller...', 'id=42, page=1')
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('cuoc-thi-atc-al...')
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-01-05 09:29:56 --> Illegal string offset 'title'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\frontend\article\article\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\OpenServer\\d...', 41, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/articl...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\frontend\homepage\layout\home.php(11): view('frontend/articl...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Article\Article.php(64): view('frontend/homepa...', Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Article->index('1', '1')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=42, page=1', 0, 'AppControllersF...')
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(19): view_cell('\\App\\Controller...', 'id=42, page=1')
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('cuoc-thi-atc-al...')
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-01-05 09:36:53 --> Undefined index: create_at
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\frontend\article\article\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 41, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/articl...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\frontend\homepage\layout\home.php(11): view('frontend/articl...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Article\Article.php(59): view('frontend/homepa...', Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(180): App\Controllers\Frontend\Article\Article->index('1', '1')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=42, page=1', 0, 'AppControllersF...')
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(19): view_cell('\\App\\Controller...', 'id=42, page=1')
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('cuoc-thi-atc-al...')
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-01-05 09:45:56 --> Call to a member function all() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Infomation\Infomation->index()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Infomation\Infomation))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-05 10:47:28 --> Undefined property: App\Controllers\Frontend\Homepage\Home::$slideRepository
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 27, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-05 10:50:58 --> syntax error, unexpected end of file
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\frontend\homepage\layout\home.php(11): view('frontend/homepa...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Home.php(55): view('frontend/homepa...', Array)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->index()
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}

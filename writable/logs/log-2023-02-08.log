@@ -1,0 +1,86 @@
+CRITICAL - 2023-02-08 09:49:16 --> syntax error, unexpected '}'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OpenServer\\d...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(892): class_exists('\\App\\Controller...', true)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(416): CodeIgniter\CodeIgniter->startController()
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-08 10:11:10 --> Undefined property: App\Controllers\Ajax\User::$language
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 16, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(907): App\Controllers\Ajax\User->__construct()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->createController()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-08 10:12:30 --> Undefined property: App\Controllers\Ajax\User::$language
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 16, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(907): App\Controllers\Ajax\User->__construct()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->createController()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-08 10:13:28 --> Undefined variable: page
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 98, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-08 10:14:25 --> Undefined variable: page
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\include\filter.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 69, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\index.php(42): view('backend/user/us...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(65): view('backend/user/us...')
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(42): view('backend/dashboa...', Array)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->index()
+#14 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#15 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-02-08 10:15:45 --> Undefined variable: page
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 98, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-08 10:20:12 --> Class 'App\Controllers\Ajax\Spreadsheet' not found
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-08 10:22:16 --> Undefined variable: users
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 116, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-08 10:22:51 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 118, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-08 11:27:11 -->  route cannot be found while reverse-routing.
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(128): redirect('http://quanlydo...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}

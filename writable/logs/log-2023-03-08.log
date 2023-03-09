@@ -1,0 +1,13 @@
+CRITICAL - 2023-03-08 22:20:41 --> Invalid file: backend/chat/index.php
+#0 D:\OpenServer\domains\quanlydoanvien.chat.kt.com\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/chat/in...')
+#1 D:\OpenServer\domains\quanlydoanvien.chat.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/chat/in...', Array, true)
+#2 D:\OpenServer\domains\quanlydoanvien.chat.kt.com\app\Views\backend\dashboard\layout\home.php(66): view('backend/chat/in...')
+#3 D:\OpenServer\domains\quanlydoanvien.chat.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#4 D:\OpenServer\domains\quanlydoanvien.chat.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\OpenServer\domains\quanlydoanvien.chat.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.chat.kt.com\app\Controllers\Backend\Chat\Chat.php(20): view('backend/dashboa...', Array)
+#7 D:\OpenServer\domains\quanlydoanvien.chat.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Chat\Chat->index()
+#8 D:\OpenServer\domains\quanlydoanvien.chat.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Chat\Chat))
+#9 D:\OpenServer\domains\quanlydoanvien.chat.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\OpenServer\domains\quanlydoanvien.chat.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}

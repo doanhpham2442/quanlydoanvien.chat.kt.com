@@ -1,0 +1,369 @@
+CRITICAL - 2022-12-21 08:06:26 --> Undefined variable: city
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\store.php(212): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 212, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/user/us...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): view('backend/dashboa...', Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 09:24:54 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\Dashboard.php(355): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 355, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ajax\Dashboard->get_branch()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Dashboard))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 09:35:21 --> Undefined variable: ethnic
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\store.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 141, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/user/us...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(68): view('backend/dashboa...', Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 09:47:56 --> Call to undefined method App\Repositories\UserRepository::getEthnic()
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-21 09:48:58 --> Undefined variable: religion
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\store.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 149, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/user/us...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(69): view('backend/dashboa...', Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 10:00:21 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:01:28 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:01:29 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:02:47 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic, id')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:02:48 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic, id')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:03:32 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:05:24 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:05:55 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:05:56 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:06:08 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:06:18 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:06:19 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:06:20 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:06:20 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:06:20 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:06:20 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:06:20 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:06:21 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:06:21 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:06:21 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:06:21 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:06:21 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:06:22 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:07:44 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic, id')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:07:44 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic, id')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:07:44 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic, id')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:07:45 --> Too few arguments to function App\Repositories\UserRepository::getSynthesis(), 1 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 64 and exactly 2 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): App\Repositories\UserRepository->getSynthesis('vn_ethnic, id')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 10:09:15 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:09:35 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:09:36 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:09:36 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:09:36 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:09:37 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:09:37 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:09:37 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:09:37 --> Undefined index: name
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(64): convertArrayByValue('D\xC3\xA2n t\xE1\xBB\x99c', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:11:27 --> Undefined index: id
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(66): convertArrayByValue('N\xC6\xA1i c\xE1\xBA\xA5p', Array, 'id', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 10:11:54 --> Undefined index: provinceidid
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 468, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(66): convertArrayByValue('N\xC6\xA1i c\xE1\xBA\xA5p', Array, 'provinceidid', 'name')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-21 11:30:38 --> Argument 2 passed to form_input() must be of the type string, array given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\store.php on line 367
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\store.php(367): form_input('association_pos...', Array, '', 'class="form-con...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/user/us...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(70): view('backend/dashboa...', Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-21 12:26:08 --> syntax error, unexpected '"alias"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/user/us...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(71): view('backend/dashboa...', Array)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-21 12:26:40 --> syntax error, unexpected 'alias' (T_STRING), expecting ',' or ')'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/user/us...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(71): view('backend/dashboa...', Array)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}

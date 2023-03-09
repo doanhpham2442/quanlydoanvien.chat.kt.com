@@ -1,0 +1,9 @@
+CRITICAL - 2022-12-22 09:07:23 --> Argument 1 passed to password_encode() must be of the type string, null given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php on line 112
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(112): password_encode(NULL, 'f7wesfygx49Yy1t...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(57): App\Services\UserService->renderPassword()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(50): App\Services\UserService->create()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}

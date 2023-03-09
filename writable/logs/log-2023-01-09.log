@@ -1,0 +1,716 @@
+CRITICAL - 2023-01-09 01:26:11 --> syntax error, unexpected ';'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('backend/user/us...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('backend/user/us...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 01:30:46 --> Cannot use [] for reading
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-09 01:30:55 --> Cannot use [] for reading
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-09 01:31:19 --> Undefined offset: 1
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\OpenServer\\d...', 122, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 01:32:08 --> Undefined offset: 2
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\OpenServer\\d...', 122, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 01:32:22 --> Undefined offset: 1
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\OpenServer\\d...', 123, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 01:34:21 --> Cannot use [] for reading
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-09 02:12:14 --> Array to string conversion
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\storeexcel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\OpenServer\\d...', 16, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(62): view('backend/user/us...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(155): view('backend/dashboa...', Array)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-09 02:13:28 --> Undefined variable: validate
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\storeexcel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 16, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(62): view('backend/user/us...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(155): view('backend/dashboa...', Array)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-09 02:13:29 --> Undefined variable: validate
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\storeexcel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 16, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(62): view('backend/user/us...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(155): view('backend/dashboa...', Array)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-09 02:13:34 --> Undefined variable: validate
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\storeexcel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 16, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(62): view('backend/user/us...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(155): view('backend/dashboa...', Array)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-09 02:13:49 --> Array to string conversion
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\storeexcel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\OpenServer\\d...', 16, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(62): view('backend/user/us...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(155): view('backend/dashboa...', Array)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-09 02:17:56 --> Array to string conversion
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\storeexcel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\OpenServer\\d...', 16, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(62): view('backend/user/us...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(162): view('backend/dashboa...', Array)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-09 02:19:03 --> Array to string conversion
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\storeexcel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\OpenServer\\d...', 16, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(62): view('backend/user/us...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(162): view('backend/dashboa...', Array)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-09 02:19:30 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-09 02:19:32 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-09 02:19:34 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-09 02:19:37 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-09 02:19:40 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-09 02:19:40 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-09 02:19:41 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-09 02:19:42 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-09 02:19:43 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-09 02:19:51 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-09 02:22:19 --> Array to string conversion
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\storeexcel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\OpenServer\\d...', 16, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(62): view('backend/user/us...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(162): view('backend/dashboa...', Array)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-09 02:23:14 --> Array to string conversion
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\user\user\storeexcel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\OpenServer\\d...', 16, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/user/us...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(62): view('backend/user/us...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(162): view('backend/dashboa...', Array)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-09 02:38:05 --> Undefined variable: dropdown
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\event\semester\include\aside.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 12, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/event/s...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\event\semester\store.php(27): view('backend/event/s...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/event/s...', Array, true)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(62): view('backend/event/s...')
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Event\Semester.php(70): view('backend/dashboa...', Array)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Event\Semester->create()
+#14 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Event\Semester))
+#15 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-01-09 02:38:44 --> Table 'qldv.semester_translate' doesn't exist
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tb1`.`i...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb1`.`i...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb1`.`i...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tb1`.`i...', Array, false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Nestedsetbie.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Nestedsetbie.php(85): App\Libraries\Nestedsetbie->Get()
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Event\Semester.php(67): App\Libraries\Nestedsetbie->Dropdown()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Event\Semester->create()
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Event\Semester))
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-09 02:39:33 --> Call to undefined method App\Controllers\Backend\Event\Semester::dropdown_no_language()
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Event\Semester->create()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Event\Semester))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-09 03:05:04 --> Undefined index: foreignkey
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Nestedsetbie.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 24, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Nestedsetbie.php(105): App\Libraries\Nestedsetbie->Get()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Event\Semester.php(108): App\Libraries\Nestedsetbie->Dropdown()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Event\Semester->update(2)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Event\Semester))
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-09 03:05:14 --> Undefined index: foreignkey
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Nestedsetbie.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 24, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Nestedsetbie.php(105): App\Libraries\Nestedsetbie->Get()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Event\Semester.php(108): App\Libraries\Nestedsetbie->Dropdown()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Event\Semester->update(2)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Event\Semester))
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-09 03:06:33 --> Undefined index: foreignkey
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Nestedsetbie.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 24, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Nestedsetbie.php(105): App\Libraries\Nestedsetbie->Get()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Event\Semester.php(108): App\Libraries\Nestedsetbie->Dropdown()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Event\Semester->update(2)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Event\Semester))
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-09 03:08:38 --> Undefined index: foreignkey
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Nestedsetbie.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 24, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Nestedsetbie.php(105): App\Libraries\Nestedsetbie->Get()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Event\Semester.php(108): App\Libraries\Nestedsetbie->Dropdown()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Event\Semester->update(2)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Event\Semester))
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-09 03:08:46 --> Call to private method App\Services\SemesterService::nestedsetbie() from context 'App\Controllers\Backend\Event\Semester'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Event\Semester->create()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Event\Semester))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-09 04:16:34 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('frontend/articl...', Array, true)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\frontend\homepage\layout\home.php(12): view('frontend/articl...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Article\Catalogue.php(50): view('frontend/homepa...', Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(152): App\Controllers\Frontend\Article\Catalogue->index('1', '1')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1238): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=67, page=1', 0, 'AppControllersF...')
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(20): view_cell('\\App\\Controller...', 'id=67, page=1')
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Homepage\Router->index('bai-viet')
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-01-09 04:47:12 --> syntax error, unexpected ''order_by'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OpenServer\\d...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Repositorie...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Repositorie...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Config\Services.php(170): spl_autoload_call('App\\Repositorie...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Config\BaseService.php(100): Config\Services::ArticleCatalogueRepository('article_catalog...', false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Config\Services.php(167): CodeIgniter\Config\BaseService::getSharedInstance('articlecatalogu...', 'article_catalog...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1030): Config\Services::ArticleCatalogueRepository('article_catalog...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Article\Catalogue.php(19): service('ArticleCatalogu...', 'article_catalog...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(94): App\Controllers\Frontend\Article\Catalogue->__construct()
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1238): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=67, page=1', 0, 'AppControllersF...')
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(20): view_cell('\\App\\Controller...', 'id=67, page=1')
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Homepage\Router->index('bai-viet')
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-01-09 04:55:06 --> str_repeat() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'str_repeat() ex...', 'D:\\OpenServer\\d...', 31, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\frontend\article\catalogue\index.php(31): str_repeat(0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('frontend/articl...', Array, true)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\frontend\homepage\layout\home.php(12): view('frontend/articl...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('frontend/homepa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Article\Catalogue.php(51): view('frontend/homepa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(152): App\Controllers\Frontend\Article\Catalogue->index('1', '1')
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1238): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=65, page=1', 0, 'AppControllersF...')
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(20): view_cell('\\App\\Controller...', 'id=65, page=1')
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Homepage\Router->index('chuong-trinh-ch...')
+#14 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#15 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-01-09 08:29:30 --> Too few arguments to function App\Services\UserService::renderPassword(), 0 passed in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php on line 100 and exactly 1 expected
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(100): App\Services\UserService->renderPassword()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 08:45:30 --> Unable to locate view cell class: \App\Controllers\Frontend\Article\Catalogue.
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(240): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass('\\App\\Controller...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(81): CodeIgniter\View\Cell->determineClass('\\App\\Controller...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1238): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=65, page=1', 0, NULL)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(20): view_cell('\\App\\Controller...', 'id=65, page=1')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Homepage\Router->index('chuong-trinh-ch...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-09 09:07:28 --> Undefined property: App\Controllers\Frontend\Event\Catalogue::$semesterRepository
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 30, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 09:09:35 --> Undefined property: App\Controllers\Frontend\Event\Catalogue::$semesterRepository
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 30, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 09:10:25 --> Undefined property: App\Controllers\Frontend\Event\Catalogue::$semesterRepository
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 30, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 09:10:30 --> Undefined property: App\Controllers\Frontend\Event\Catalogue::$semesterRepository
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 30, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 09:10:31 --> Undefined property: App\Controllers\Frontend\Event\Catalogue::$semesterRepository
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 30, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 09:19:01 --> Undefined property: App\Controllers\Frontend\Event\Catalogue::$semesterRepository
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 31, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 09:20:30 --> Undefined property: App\Controllers\Frontend\Event\Catalogue::$eventService
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 36, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 09:21:47 --> Undefined property: App\Controllers\Frontend\Event\Catalogue::$eventService
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 35, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 09:22:02 --> Undefined index: lft
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Repositories\EventRepository.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 57, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(194): App\Repositories\EventRepository->countIndex(Array)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(35): App\Services\EventService->index(Array, 1)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-09 09:25:35 --> Undefined index: lft
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Repositories\EventRepository.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 57, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(222): App\Repositories\EventRepository->countIndex(Array)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(32): App\Services\EventService->indexAll(Array, 1)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-09 09:31:26 --> Undefined index: lft
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Repositories\EventRepository.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 95, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(235): App\Repositories\EventRepository->paginateIndex(Array, Array, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(32): App\Services\EventService->indexAll(Array, 0)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-09 09:32:01 --> Undefined index: lft
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Repositories\EventRepository.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 95, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(235): App\Repositories\EventRepository->paginateIndex(Array, Array, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(32): App\Services\EventService->indexAll(Array, 0)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-09 09:33:36 --> Undefined index: lft
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Repositories\EventRepository.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 95, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(235): App\Repositories\EventRepository->paginateIndex(Array, Array, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(32): App\Services\EventService->indexAll(Array, 0)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index()
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-09 09:37:19 --> Undefined index: canonical
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 195, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Catalogue.php(35): App\Services\EventService->index(Array, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Event\Catalogue->index('2', '')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Event\Catalogue))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 09:37:51 --> syntax error, unexpected 'if' (T_IF)
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OpenServer\\d...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(892): class_exists('\\App\\Controller...', true)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(416): CodeIgniter\CodeIgniter->startController()
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-09 10:18:08 --> Undefined variable: id
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 80, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 10:18:09 --> Undefined variable: id
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 80, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 10:38:46 --> Illegal string offset 'id'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Helpers\mystring_helper.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\OpenServer\\d...', 577, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(86): dropdown_no_language(Array)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 10:50:47 --> Undefined property: App\Controllers\Ajax\Event::$language
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\Event.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 9, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(907): App\Controllers\Ajax\Event->__construct()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->createController()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 10:51:24 --> Illegal string offset 'module'
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\SemesterService.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\OpenServer\\d...', 21, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Config\Services.php(120): App\Services\SemesterService->__construct('semesters')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Config\BaseService.php(100): Config\Services::SemesterService('semesters', false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Config\Services.php(117): CodeIgniter\Config\BaseService::getSharedInstance('semesterservice', 'semesters')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1030): Config\Services::SemesterService('semesters')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\Event.php(8): service('SemesterService', 'semesters')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(907): App\Controllers\Ajax\Event->__construct()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->createController()
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-09 10:51:59 --> Undefined variable: id
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\Event.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 42, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\Event->get_semester()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Event))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 11:16:27 --> Undefined variable: page
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 82, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 11:30:35 --> syntax error, unexpected '$config' (T_VARIABLE)
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OpenServer\\d...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Services\\Ev...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Services\\Ev...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Config\Services.php(129): spl_autoload_call('App\\Services\\Ev...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Config\BaseService.php(100): Config\Services::EventService(Array, false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Config\Services.php(126): CodeIgniter\Config\BaseService::getSharedInstance('eventservice', Array)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1030): Config\Services::EventService(Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(20): service('EventService', Array)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(907): App\Controllers\Backend\CheckEvent\CheckEvent->__construct()
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->createController()
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-09 11:45:18 --> Argument 3 passed to App\Repositories\EventRepository::countUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 327
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(327): App\Repositories\EventRepository->countUserSemester(Array, '', '(SELECT SELECT ...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 1)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:45:42 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:45:43 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:04 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:06 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:06 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:07 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:07 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:07 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:07 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:08 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:08 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:08 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:08 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:08 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:08 --> Argument 3 passed to App\Repositories\EventRepository::paginateUserSemester() must be of the type array, string given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php on line 337
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\EventService.php(337): App\Repositories\EventRepository->paginateUserSemester(Array, '', '(SELECT SELECT ...', Array, 0)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(82): App\Services\EventService->paginateUserSemester(1, 0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-09 11:46:19 --> syntax error, unexpected 'return' (T_RETURN)
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\OpenServer\\d...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Services\\Ev...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Services\\Ev...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Config\Services.php(129): spl_autoload_call('App\\Services\\Ev...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Config\BaseService.php(100): Config\Services::EventService(Array, false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Config\Services.php(126): CodeIgniter\Config\BaseService::getSharedInstance('eventservice', Array)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1030): Config\Services::EventService(Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(20): service('EventService', Array)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(907): App\Controllers\Backend\CheckEvent\CheckEvent->__construct()
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->createController()
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-09 12:27:42 --> Undefined variable: countEvent
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 83, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-09 12:58:11 --> Undefined index: sum_score 
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\event\checkevent\include\table_point_training.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 49, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/event/c...', Array, true)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\event\checkevent\index_point_training.php(22): view('backend/event/c...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/event/c...', Array, true)
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(62): view('backend/event/c...')
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\CheckEvent\CheckEvent.php(93): view('backend/dashboa...', Array)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\CheckEvent\CheckEvent->pointTraining()
+#14 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\CheckEvent\CheckEvent))
+#15 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#17 {main}

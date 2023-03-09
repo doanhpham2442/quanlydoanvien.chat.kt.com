@@ -1,0 +1,174 @@
+CRITICAL - 2023-02-12 07:22:46 --> Undefined variable: eventUser
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Event.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 52, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(152): App\Controllers\Frontend\Event\Event->index('1', '1')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1238): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(20): view_cell('\\App\\Controller...', 'id=1, page=1')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Homepage\Router->index('mos-microsoft-o...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 07:22:50 --> Undefined variable: eventUser
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Event.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 52, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(152): App\Controllers\Frontend\Event\Event->index('1', '1')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1238): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(20): view_cell('\\App\\Controller...', 'id=1, page=1')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Homepage\Router->index('mos-microsoft-o...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 07:22:51 --> Undefined variable: eventUser
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Event.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 52, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(152): App\Controllers\Frontend\Event\Event->index('1', '1')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1238): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(20): view_cell('\\App\\Controller...', 'id=1, page=1')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Homepage\Router->index('mos-microsoft-o...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 07:22:52 --> Undefined variable: eventUser
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Event.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 52, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(152): App\Controllers\Frontend\Event\Event->index('1', '1')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1238): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(20): view_cell('\\App\\Controller...', 'id=1, page=1')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Homepage\Router->index('mos-microsoft-o...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 07:22:53 --> Undefined variable: eventUser
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Event.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 52, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(152): App\Controllers\Frontend\Event\Event->index('1', '1')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1238): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(20): view_cell('\\App\\Controller...', 'id=1, page=1')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Homepage\Router->index('mos-microsoft-o...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 07:22:56 --> Undefined variable: eventUser
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Event\Event.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 52, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\Cell.php(152): App\Controllers\Frontend\Event\Event->index('1', '1')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1238): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=1, page=1', 0, 'AppControllersF...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Frontend\Homepage\Router.php(20): view_cell('\\App\\Controller...', 'id=1, page=1')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Frontend\Homepage\Router->index('mos-microsoft-o...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 07:25:16 --> Argument 1 passed to App\Repositories\UserRepository::exportSelect() must be of the type array, null given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php on line 157
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(157): App\Repositories\UserRepository->exportSelect(NULL)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_select()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-12 07:25:19 --> Argument 1 passed to App\Repositories\UserRepository::exportSelect() must be of the type array, null given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php on line 157
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(157): App\Repositories\UserRepository->exportSelect(NULL)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_select()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-12 08:06:25 --> Argument 1 passed to App\Repositories\UserRepository::exportSelect() must be of the type array, null given, called in D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php on line 157
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(157): App\Repositories\UserRepository->exportSelect(NULL)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_select()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-12 09:55:07 --> File "" does not exist.
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(392): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('', '_rels/.rels')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\User\User.php(98): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load('')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\User\User->createExcel()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 10:09:24 --> Request URI segment is out of range: 4
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\HTTP\URI.php(512): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Pagination.php(462): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(46): App\Libraries\Pagination->create_links()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(106): App\Services\UserService->paginate(1)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 10:09:28 --> Request URI segment is out of range: 4
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\HTTP\URI.php(512): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Pagination.php(462): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(46): App\Libraries\Pagination->create_links()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(106): App\Services\UserService->paginate(1)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 10:09:40 --> Request URI segment is out of range: 4
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\HTTP\URI.php(512): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Pagination.php(462): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(46): App\Libraries\Pagination->create_links()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(106): App\Services\UserService->paginate(1)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 10:10:07 --> Request URI segment is out of range: 4
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\HTTP\URI.php(512): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Pagination.php(462): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(46): App\Libraries\Pagination->create_links()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(106): App\Services\UserService->paginate(1)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 10:12:47 --> Request URI segment is out of range: 4
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\HTTP\URI.php(512): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Pagination.php(462): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(46): App\Libraries\Pagination->create_links()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(106): App\Services\UserService->paginate(1)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 10:14:21 --> Request URI segment is out of range: 4
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\HTTP\URI.php(512): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Pagination.php(462): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(46): App\Libraries\Pagination->create_links()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(106): App\Services\UserService->paginate(1)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 10:16:51 --> Undefined variable: page
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 106, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-12 10:17:40 --> Request URI segment is out of range: 4
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\HTTP\URI.php(512): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Libraries\Pagination.php(462): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(46): App\Libraries\Pagination->create_links()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(106): App\Services\UserService->paginate(0)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 10:22:03 --> Undefined variable: config
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\UserService.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 68, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Ajax\User.php(106): App\Services\UserService->excelAll()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Ajax\User->export_all()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\User))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}

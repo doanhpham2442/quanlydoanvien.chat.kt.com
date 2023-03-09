@@ -1,0 +1,356 @@
+CRITICAL - 2022-12-07 10:27:31 --> Call to a member function paginate() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Branch->index()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Branch))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-07 10:27:36 --> Call to a member function paginate() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Product\Product->index()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Product\Product))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-07 10:29:46 --> Call to a member function paginate() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Branch->index()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Branch))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-07 11:18:42 --> Call to a member function paginate() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Branch->index()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Branch))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-07 11:20:56 --> Call to a member function paginate() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Branch->index()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Branch))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-07 11:20:57 --> Call to a member function paginate() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Branch->index()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Branch))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-07 11:22:52 --> Class 'App\Repositories\FacultyRepository' not found
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Config\BaseService.php(123): Config\Services::FacultyRepository('classes', false)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Config\Services.php(189): CodeIgniter\Config\BaseService::getSharedInstance('facultyreposito...', 'classes')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(957): Config\Services::FacultyRepository('classes')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(24): service('FacultyReposito...', 'classes')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Backend\Organization\Faculty->__construct()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-07 11:30:09 --> Class App\Repositories\FacultyRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Interfaces\FacultyRepositoryInterface::count)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-07 11:31:23 --> Undefined property: App\Controllers\Backend\Organization\Faculty::$facultyService
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 32, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:32:47 --> Class 'App\Services\FacultyService' not found
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Config\BaseService.php(123): Config\Services::FacultyService(Array, false)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Config\Services.php(99): CodeIgniter\Config\BaseService::getSharedInstance('facultyservice', Array)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(957): Config\Services::FacultyService(Array)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(18): service('FacultyService', Array)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Backend\Organization\Faculty->__construct()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-07 11:35:02 --> Call to a member function count() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(1)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:35:26 --> Call to a member function count() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(1)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:35:27 --> Call to a member function count() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(1)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:37:02 --> Call to a member function count() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(1)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:37:03 --> Call to a member function count() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(1)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:37:04 --> Call to a member function count() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(1)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:38:13 --> Call to a member function count() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(1)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:38:14 --> Call to a member function count() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(1)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:38:14 --> Call to a member function count() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(1)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:38:15 --> Call to a member function count() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(1)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:38:15 --> Call to a member function count() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(1)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:38:16 --> Call to a member function count() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(1)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-07 11:50:53 --> Call to a member function dropdown() on null
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->create()
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-07 11:51:08 --> Undefined variable: dropdown
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\article\catalogue\include\aside.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 12, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\store.php(27): view('backend/article...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/organiz...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(69): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->create()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-07 11:51:38 --> Undefined variable: dropdown
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\article\catalogue\include\aside.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 12, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\store.php(27): view('backend/article...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/organiz...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(69): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->create()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-07 11:51:40 --> Undefined variable: dropdown
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\article\catalogue\include\aside.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 12, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\store.php(27): view('backend/article...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/organiz...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(69): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->create()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-07 11:51:41 --> Undefined variable: dropdown
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\article\catalogue\include\aside.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 12, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\store.php(27): view('backend/article...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/organiz...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(69): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->create()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-07 11:52:24 --> Undefined variable: dropdown
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\article\catalogue\include\aside.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 12, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\store.php(27): view('backend/article...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/organiz...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(69): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->create()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-07 11:52:25 --> Undefined variable: dropdown
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\article\catalogue\include\aside.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 12, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\store.php(27): view('backend/article...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/organiz...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(69): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->create()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-07 11:52:26 --> Undefined variable: dropdown
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\article\catalogue\include\aside.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 12, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\store.php(27): view('backend/article...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/organiz...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(69): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->create()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-07 11:52:31 --> Undefined variable: dropdown
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\article\catalogue\include\aside.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 12, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\store.php(27): view('backend/article...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/organiz...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(69): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->create()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-07 11:52:32 --> Undefined variable: dropdown
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\article\catalogue\include\aside.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 12, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\store.php(27): view('backend/article...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/organiz...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(69): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->create()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-07 11:53:23 --> Undefined variable: dropdown
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\article\catalogue\include\aside.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 12, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\store.php(27): view('backend/article...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/organiz...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(69): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->create()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-07 11:53:24 --> Undefined variable: dropdown
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\article\catalogue\include\aside.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\OpenServer\\d...', 12, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/article...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\store.php(27): view('backend/article...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/organiz...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(69): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->create()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-07 12:25:00 --> Undefined property: App\Services\FacultyService::$falcutyRepository
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Services\FacultyService.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 53, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(32): App\Services\FacultyService->paginate(0)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-07 12:35:54 --> Undefined index: founding
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\include\table.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\OpenServer\\d...', 42, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\organization\faculty\index.php(29): view('backend/organiz...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/organiz...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(47): view('backend/organiz...')
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\OpenServer\\d...')
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Organization\Faculty.php(38): view('backend/dashboa...', Array)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Backend\Organization\Faculty->index()
+#11 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Organization\Faculty))
+#12 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}

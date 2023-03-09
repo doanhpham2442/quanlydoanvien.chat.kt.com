@@ -1,0 +1,27 @@
+CRITICAL - 2023-02-17 08:35:41 --> Undefined property: App\Controllers\Backend\Dashboard\Dashboard::$module
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Dashboard\Dashboard.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 21, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Dashboard\Dashboard->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard\Dashboard))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-17 08:35:47 --> Invalid file: backend/dashboard/layout/index.php
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/dashboa...')
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Views\backend\dashboard\layout\home.php(65): view('backend/dashboa...')
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\OpenServer\\d...')
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#6 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Dashboard\Dashboard.php(24): view('backend/dashboa...', Array)
+#7 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Dashboard\Dashboard->index()
+#8 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard\Dashboard))
+#9 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-17 08:40:32 --> Undefined property: App\Controllers\Backend\Dashboard\Dashboard::$facultyService
+#0 D:\OpenServer\domains\quanlydoanvien.kt.com\app\Controllers\Backend\Dashboard\Dashboard.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\OpenServer\\d...', 20, Array)
+#1 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Backend\Dashboard\Dashboard->index()
+#2 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard\Dashboard))
+#3 D:\OpenServer\domains\quanlydoanvien.kt.com\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\OpenServer\domains\quanlydoanvien.kt.com\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
